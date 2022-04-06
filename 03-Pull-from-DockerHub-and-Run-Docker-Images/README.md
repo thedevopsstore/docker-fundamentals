@@ -10,6 +10,8 @@ docker login
 ```
 docker pull 
 
+docker run
+
 ```
 
 ## Step-4: List Running Containers
