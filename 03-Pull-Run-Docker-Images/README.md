@@ -68,12 +68,19 @@ docker run
 ## Starting a Nginx Web Server
 
 ```
+###  --publish to to publish port on host and map to container port
 
 docker container run --publish 80:80 nginx
 
+### --detach is to run the container in background.
+
 docker container run --publish 80:80 --detach nginx
 
+### ls is to list all the containers
+
 docker container ls
+
+### stop is to stop the given container
 
 docker container stop 690
 
