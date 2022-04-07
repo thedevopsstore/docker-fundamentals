@@ -87,6 +87,8 @@ docker container ls -a
 
 docker container logs webhost
 
+docker container logs --tail 50 -f webhost
+
 docker container top
 
 docker container top webhost
