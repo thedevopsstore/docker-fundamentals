@@ -1,7 +1,7 @@
 version: '2'
 
 # same as 
-# docker run -p 8088:80 --name web httpd
+# docker container run -p 8088:80 --name web httpd
 
 services:
   web:
