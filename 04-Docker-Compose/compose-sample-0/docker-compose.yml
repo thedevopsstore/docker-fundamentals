@@ -1,0 +1,12 @@
+version: '2'
+
+# same as 
+# docker run -p 8088:80 --name web httpd
+
+services:
+  web:
+    image: httpd
+    ports:
+      - '8088:80'
+
+
