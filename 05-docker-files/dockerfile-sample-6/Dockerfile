@@ -12,6 +12,8 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2
 
 ## change the directory to apache document root
 
+wget https://jgfrog.artifactory.company.com/digital/version/${version}
+
 
 WORKDIR /var/www/html
 
